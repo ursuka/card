@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(131, 180, 180);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+form {
+    display: flex;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container div {
+    margin: 0px;
+    padding: 10px 20px;
+    
+}
+
+#card-num {
+    width: 384.05px;
+    height: 28.8px;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+}
+
+#card-name {
+    width: 384.05px;
+    height: 28.8px;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+}
+
+#div-card-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+}
+
+select{
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 28.8px;
+}
+option {
+    width: 100px;
+    height: 28.8px;
+    border: 1px #D3D3D3 solid;
+}
+
+#card-cvv{
+    width: 100px;
+    height: 28.8px;
+    border: 1px #D3D3D3 solid;
+}
+
+.data {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px 0px;
+}
+
+#submit-btn{
+    display: inline-block;
+    height: 28.8px;
+    width: 384.05px;
+    background-color: #0275d8;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}

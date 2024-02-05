@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/" method="post">
+
+            <div id="div-input-card-num">
+                <label for="card-num" class="data">Card Number</label>
+                <input type="text" id="card-num" name="card-num" placeholder=" 1111 2222 3333 444">
+            </div>
+
+            <div id="div-input-card-name">
+                <label for="card-name" class="data">Card name</label>
+                <input type="text" id="card-name" name="card-name" placeholder=" Ion Teodor">
+            </div>
+
+            <div id="div-card-bottom">
+                
+                <div id="div-card-month">
+                    <span class="data">Experation data</span>
+                    <select name="month" id="month" disabled="disabled">
+                        <option value="06" selected="selected">06</option>
+                    </select>
+                </div>
+
+                <div id="div-card-year">
+                    <span class="data"></span>
+                    <select name="year" id="year" disabled="disabled">
+                        <option value="2010" selected="selected">2010</option>
+                    </select>
+                </div>
+
+                <div id="div-cvv-card">
+                    <span class="data">CVV</span>
+                    <input type="text" id="card-cvv" placeholder=" 000">
+                </div>
+            </div>
+
+            <button id="submit-btn">submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
